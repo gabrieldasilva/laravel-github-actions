@@ -37,4 +37,4 @@ jobs:
       - name: Install NPM Dependencies
         run: npm install
       - name: Compile assets for production
-        run: npm run production
+        run: npm run build
